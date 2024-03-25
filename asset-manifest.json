@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb2f2987.css",
+    "main.js": "/static/js/main.704c2986.js",
+    "static/media/me_1.jpg": "/static/media/me_1.b49a7fc20dde1341b8ad.jpg",
+    "static/media/contact-bg.jpg": "/static/media/contact-bg.928ca4ec9f270e0055b3.jpg",
+    "static/media/me_3.jpg": "/static/media/me_3.c1fafd3fe434e7121f7f.jpg",
+    "static/media/palmeira.jpg": "/static/media/palmeira.82f7c10b43d2a1c60aab.jpg",
+    "static/media/lady-shutterbug.jpg": "/static/media/lady-shutterbug.9c2068b8c64b04ec2900.jpg",
+    "static/media/guitarist.jpg": "/static/media/guitarist.f5b6b9e41cddf5a0003e.jpg",
+    "static/media/user-05.jpg": "/static/media/user-05.cfeb97de0b1fce9079e0.jpg",
+    "static/media/woodcraft.jpg": "/static/media/woodcraft.d63d197a5dbac956154e.jpg",
+    "static/media/user-01.jpg": "/static/media/user-01.c895944d1b2f66cb661a.jpg",
+    "static/media/user-02.jpg": "/static/media/user-02.28476f073105e3c3af95.jpg",
+    "static/media/the-beetle.jpg": "/static/media/the-beetle.4d3782a250eb5ae3cbb8.jpg",
+    "static/media/node.svg": "/static/media/node.2dbe9c9aacbea4c9e9ebb3453e4f7cf0.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/react.svg": "/static/media/react.84baf35a2d0333d60e58aa2e5f3c6fc1.svg",
+    "static/media/javascript.svg": "/static/media/javascript.37270e3adc5620c25b5e9b9b6cc900d6.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.cb39a4defc2b77e48922d98634590e12.svg",
+    "index.html": "/index.html",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/npm.svg": "/static/media/npm.00e612f449835dd83cce641a5bb4877c.svg",
+    "static/media/html5.svg": "/static/media/html5.7fc2f01a779b2ba58a35d7bc97f633ca.svg",
+    "static/media/css3.svg": "/static/media/css3.4f03e4cc296199b087cd6a72b5d25b50.svg",
+    "main.fb2f2987.css.map": "/static/css/main.fb2f2987.css.map",
+    "main.704c2986.js.map": "/static/js/main.704c2986.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb2f2987.css",
+    "static/js/main.704c2986.js"
+  ]
+}
