@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda Academy Tutorials 👨‍💻</title>
+    <meta
+      name="description"
+      content="🖥️ Learn the basics of HTML, CSS, JavaScript, and more. Follow along with step-by-step tutorials designed to make learning fun and accessible."
+    />
+    <meta
+      name="keywords"
+      content="web development, frontend development, backend development, full-stack development, HTML, CSS, JavaScript, React, Vue.js, Angular, responsive design, mobile-first design, web design, web programming, web developer, web development tools, web development frameworks, website optimization, SEO, user experience design, UX/UI design"
+    />
+    <meta name="author" content="Nnamdi Emmanuel Dike" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Prevent indexing -->
+
+    <meta property="og:title" content="Nnamdi Emmanuel Dike [NED] 👨‍💻" />
+    <meta
+      property="og:description"
+      content="Crafting immersive digital experiences with expertise in HTML5, CSS3, and JavaScript. Explore my portfolio to see examples of my work."
+    />
+    <meta
+      property="og:image"
+      content="https://nnamdiemmanueldike.web.app/favico.ico"
+    />
+    <meta property="og:url" content="https://nnamdiemmanueldike.web.app" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nnamdi Emmanuel Dike [NED] 👨‍💻" />
+    <meta
+      name="twitter:description"
+      content="Crafting immersive digital experiences with expertise in HTML5, CSS3, and JavaScript. Explore my portfolio to see examples of my work."
+    />
+    <meta
+      name="twitter:image"
+      content="https://nnamdiemmanueldike.web.app/favico.ico"
+    />
+
+    <!-- WhatsApp -->
+    <meta property="og:site_name" content="Nnamdi's Portfolio" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Facebook -->
+    <meta property="fb:app_id" content="Your Facebook App ID" />
+
+    <!-- Instagram -->
+    <meta property="instagram:account_id" content="Your Instagram Account ID" />
+    <link rel="shortcut icon" href="/favico.ico" type="image/x-icon" />
+
+    <!-- styling -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/import/micons/micons.css" />
+    <link rel="stylesheet" href="/assets/css/font.css" />
+    <link rel="stylesheet" href="/assets/css/media-query.css" />
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script>
+    <script src="/assets/JavaScript/plugin.js"></script>
+    <script src="/assets/JavaScript/modernizr.js"></script>
+    <script src="/assets/JavaScript/smtp.js"></script>
+  </head>
+  <body id="top">
+    <!-- !Pre-loader -->
+    <div id="preloader">
+      <div id="loader">
+        <div class="line-scale-pulse-out">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <!-- ?Pre-loader -->
+
+    <!-- !Header -->
+    <header class="s-header">
+      <div class="header-logo">
+        <a href="/" class="site-logo">
+          <img src="/assets/images/logo.png" alt="site-logo" />
+        </a>
+      </div>
+
+      <!-- !Navbar -->
+      <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close">
+          <span>Close</span>
+        </a>
+        <div class="header-nav__content">
+          <h3>Navigation 🧭</h3>
+          <ul class="header-nav__list">
+            <li class="current">
+              <a href="#home" class="smoothscroll" title="home"> Home 🏠 </a>
+            </li>
+            <li>
+              <a href="#about" class="smoothscroll" title="about"> About 📖 </a>
+            </li>
+            <li>
+              <a href="#services" class="smoothscroll" title="services">
+                Services 🛎
+              </a>
+            </li>
+            <li>
+              <a href="#Works" class="smoothscroll" title="work"> Works 💼 </a>
+            </li>
+            <li>
+              <a href="#clients" class="smoothscroll" title="clients">
+                Clients 👥
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="smoothscroll" title="contact">
+                Contact ☎️
+              </a>
+            </li>
+          </ul>
+          <p id="quote-container">
+            <a id="quote-gen" href="#0">Generate new Quote</a>
+          </p>
+          <ul class="header-nav__social">
+            <li>
+              <a href="https://www.facebook.com/Nnamdidike0029"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/OKAYINTERRUPT"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/__nnamdi_dike_?igsh=YzljYTk1ODg3Zg=="
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/emmanueldike1"
+                ><i class="fab fa-behance"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nnamdi-dike-604522281"
+                ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/emmzyrayz"
+                ><i class="fab fa-github-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCOj-ac0Zi9hVu2MzSbbHdpA"
+                ><i class="fab fa-youtube-square" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a href="#0" class="header-menu-toggle">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+      </a>
+    </header>
+
+    <!-- !Section 1 -->
+    <section
+      id="home"
+      class="s-home target-section"
+      data-parallax="scroll"
+      data-image-src="/assets/images/hero-bg.jpg"
+      data-natural-width="3000"
+      data-natural-height="2000"
+      data-position-y="center"
+    >
+      <div class="overlay"></div>
+      <div class="shadow-overlay"></div>
+      <div class="home-content">
+        <div class="row home-content__main">
+          <h3>Welcome to my Panda Academy</h3>
+          <h1>
+            🌐 Are you ready to dive into the world of web development? Join me
+            on my journey as I explore the ins and outs of creating websites
+            from scratch. Whether you're a complete beginner or looking to
+            sharpen your skills, there's something here for everyone!
+            <hr style="height: 15px; margin: 0px; padding: 0px" />
+            🖥️ Learn the basics of HTML, CSS, JavaScript, and more. Follow along
+            with step-by-step tutorials designed to make learning fun and
+            accessible.
+            <hr style="height: 15px; margin: 0px; padding: 0px" />
+            🤝 Plus, join our vibrant community of learners to share ideas, ask
+            questions, and grow together!
+            <hr style="height: 15px; margin: 0px; padding: 0px" />
+            🌟 Start your journey today and become a web development pro.
+            Sponsored by <a href="">Okaymarket Hub </a>.
+            <hr style="height: 15px; margin: 0px; padding: 0px" />
+            🔔 Don't miss out! Watch the video, subscribe, and follow for more
+            exciting updates. Let's build something amazing together! 💻✨
+          </h1>
+          <div class="home-content__buttons">
+            <a
+              href="https://chat.whatsapp.com/KiGGOILstEiCoLBNRhsaj2"
+              target="_blank"
+              class="smoothscroll btn btn--stroke"
+            >
+              Join Us Now
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCOj-ac0Zi9hVu2MzSbbHdpA"
+              target="_blank"
+              class="smoothscroll btn btn--stroke"
+            >
+              Youtube
+              <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+            <a href="/index.html#about" class="smoothscroll btn btn--stroke">
+              More about me
+            </a>
+          </div>
+        </div>
+        <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll">
+            <span>Scroll Down</span>
+          </a>
+        </div>
+        <div class="home-content__line"></div>
+      </div>
+      <ul class="home-social">
+        <li>
+          <a href="https://www.facebook.com/Nnamdidike0029"
+            ><i class="fab fa-facebook" aria-hidden="true"></i
+            ><span>Facebook</span></a
+          >
+        </li>
+        <li>
+          <a href="https://twitter.com/OKAYINTERRUPT"
+            ><i class="fab fa-twitter" aria-hidden="true"></i
+            ><span>Twiiter</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/__nnamdi_dike_?igsh=YzljYTk1ODg3Zg=="
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span></a
+          >
+        </li>
+        <li>
+          <a href="https://www.behance.net/emmanueldike1"
+            ><i class="fab fa-behance" aria-hidden="true"></i
+            ><span>Behance</span></a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/channel/UCOj-ac0Zi9hVu2MzSbbHdpA"
+            ><i class="fab fa-youtube-square" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <!-- ?Section 1 -->
+
+    <!-- !Services -->
+    <section id="services" class="s-services">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">What we teach !!</h3>
+          <h1 class="display-2">
+            We've got everything you need to launch 🚀 and grow your Web Dev
+            Journey 📈
+          </h1>
+        </div>
+      </div>
+      <div class="row services-list block-1-2 block-tab-full">
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <i class="bi bi-globe"></i>
+          </div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Web Development</h3>
+            <p>
+              Overview of what web development is, including front-end,
+              back-end, and full-stack development. Introduction to basic terms
+              and concepts.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-tools"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Setting Up Your Development Environment</h3>
+            <p>
+              Guide to setting up a development environment on Windows, Mac, and
+              Linux. Includes installing a code editor (VS Code), setting up Git
+              and GitHub, installing Node.js and npm, and configuring a
+              terminal.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-file-code"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Basics of HTML</h3>
+            <p>
+              Introduction to HTML, the structure of web pages, and common tags.
+              Build a basic web page from scratch.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-palette"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Basics of CSS</h3>
+            <p>
+              Introduction to CSS for styling HTML elements. Learn about
+              selectors, properties, and creating a simple styled web page.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Basics of JavaScript</h3>
+            <p>
+              Introduction to JavaScript, including syntax, variables, data
+              types, functions, loops, and conditionals.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-diagram-3"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Working with the DOM (Document Object Model)</h3>
+            <p>
+              Understanding and manipulating the DOM with JavaScript. Learn how
+              to dynamically update content and handle events.
+            </p>
+          </div>
+        </div>
+        <!-- ?tutorials -->
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-git"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Version Control with Git</h3>
+            <p>
+              Basics of Git commands and workflows. Learn how to use GitHub to
+              host repositories and collaborate on projects.
+            </p>
+          </div>
+        </div>
+        <!-- !tutorials -->
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <i class="bi bi-arrows-fullscreen"></i>
+          </div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Responsive Design</h3>
+            <p>
+              What is responsive design? Learn about media queries, flexible
+              layouts, and using frameworks like Bootstrap for responsive
+              design.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-layers"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Front-End Frameworks</h3>
+            <p>
+              Overview of front-end frameworks like React, Vue.js, and Angular.
+              Set up a basic React project and build a simple application.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-server"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Backend Development</h3>
+            <p>
+              Overview of backend technologies and setting up a Node.js
+              environment. Learn basic concepts of Express.js and build a simple
+              API.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-database"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to Databases</h3>
+            <p>
+              Overview of SQL vs. NoSQL databases. Learn to set up a SQL
+              database and perform basic CRUD operations. Introduction to ORMs.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-lightning"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Advanced JavaScript Concepts</h3>
+            <p>
+              Dive into asynchronous JavaScript, Promises, async/await, modules,
+              ES6 features, and error handling.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon">
+            <i class="bi bi-layout-text-window"></i>
+          </div>
+          <div class="service-text">
+            <h3 class="h2">Building a Full-Stack Application</h3>
+            <p>
+              Plan and structure a full-stack project. Connect the front-end to
+              the back-end and deploy a full-stack application.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-lock"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Authentication and Authorization</h3>
+            <p>
+              Basics of authentication and authorization. Implement user
+              registration and login, and secure your API endpoints.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-cloud-upload"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Introduction to DevOps and Deployment</h3>
+            <p>
+              Learn the basics of DevOps and CI/CD. Deploy your application to
+              platforms like Heroku, Netlify, or Vercel, and set up a basic
+              CI/CD pipeline.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-diagram-2"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Advanced Backend Concepts</h3>
+            <p>
+              Dive into middleware in Express.js, WebSockets for real-time
+              communication, and microservices architecture.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-speedometer"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Performance Optimization</h3>
+            <p>
+              Learn tips for optimizing front-end and back-end performance.
+              Monitor and maintain performance for your applications.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-shield-lock"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Security Best Practices</h3>
+            <p>
+              Understand common security threats and how to mitigate them.
+              Practice secure coding and use security tools and libraries.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-check2-square"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Testing Your Application</h3>
+            <p>
+              Introduction to testing, including unit, integration, and
+              end-to-end tests. Set up testing frameworks like Jest and Mocha,
+              and write and run tests.
+            </p>
+          </div>
+        </div>
+        <div class="col-block service-item" data-aos="fade-up">
+          <div class="service-icon"><i class="bi bi-trophy"></i></div>
+          <div class="service-text">
+            <h3 class="h2">Final Project and Next Steps</h3>
+            <p>
+              Build a comprehensive project that incorporates everything
+              learned. Tips for building a portfolio, career advice, and next
+              steps in learning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?Services -->
+
+    <!-- !testimonial -->
+    <section class="s-clients" id="clients">
+      <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">Our Clients</h3>
+          <h1 class="display-2">
+            I would be very honored to partner up with these clients
+          </h1>
+        </div>
+      </div>
+
+      <div class="row clients-testimonials" data-aos="fade-up">
+        <div class="col-full">
+          <div class="testimonials">
+            <div class="testimonials__slide">
+              <p>
+                Working with Emmanuel on our website was a game-changer. The
+                design and functionality they brought to the table exceeded our
+                expectations. They were also very responsive throughout the
+                project and made sure to address all of our needs. We're
+                thrilled with the final result and highly recommend Emmanuel for
+                any web development needs.
+              </p>
+              <img
+                src="/assets/images/avatars/user-01.jpg"
+                alt="Author image"
+                class="testimonials__avatar"
+              />
+              <div class="testimonials__info">
+                <span class="testimonials__name">Tim Cook</span>
+                <span class="testimonials__pos">CEO, Apple</span>
+              </div>
+            </div>
+            <div class="testimonials__slide">
+              <p>
+                I couldn't be happier with the website Emmanuel built for my
+                business. Not only did they create a beautiful and user-friendly
+                interface, but they also optimized it for search engines,
+                resulting in a significant increase in website traffic and
+                leads. Emmanuel truly understands the importance of delivering a
+                website that not only looks great but also performs
+                exceptionally.
+              </p>
+              <img
+                src="/assets/images/avatars/user-05.jpg"
+                alt="Author image"
+                class="testimonials__avatar"
+              />
+              <div class="testimonials__info">
+                <span class="testimonials__name">Sundar Pichai</span>
+                <span class="testimonials__pos">CEO, Google</span>
+              </div>
+            </div>
+            <div class="testimonials__slide">
+              <p>
+                I am amazed by Emmanuel's expertise in web development. They
+                took our outdated and clunky website and transformed it into an
+                interactive and visually stunning platform. Their attention to
+                detail and ability to incorporate our brand identity was
+                impressive. Moreover, Emmanuel provided continuous support and
+                maintenance to ensure our website remained up to date. I
+                couldn't be more satisfied with their work.
+              </p>
+              <img
+                src="/assets/images/avatars/user-02.jpg"
+                alt="Author image"
+                class="testimonials__avatar"
+              />
+              <div class="testimonials__info">
+                <span class="testimonials__name">Satya Nadella</span>
+                <span class="testimonials__pos">CEO, Microsoft</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?testimonial -->
+
+    <!-- !FAQ -->
+    <section class="faq s-clients my-5">
+      <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title"
+                > What is web development?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Web development is the process of creating websites and web applications for the internet. It involves building and maintaining the structure, design, and functionality of a website.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">Difference between front-end and back-end dev?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Front-end development focuses on the visual aspects of a website that users interact with, using languages like HTML, CSS, and JavaScript. Back-end development involves the server-side logic, databases, and application functionality, using languages like Python, Ruby, PHP, and JavaScript (Node.js).
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title">Do I need any experience to start web development?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                No prior experience is needed to start learning web development. Our course is designed for beginners, and we cover everything from the basics to more advanced topics.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title"
+                > What tools do I need to start web development?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                You will need a code editor (such as VS Code or Sublime Text), a web browser, and a version control system like Git. We also recommend setting up a development environment with tools like Node.js and Python.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">How long does it take to learn web development?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                The time it takes to learn web development varies depending on your dedication and the complexity of the topics. On average, with consistent practice, you can start building basic websites within a few months.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is HTML?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                HTML (HyperText Markup Language) is the standard language used to create the structure of web pages. It defines elements like headings, paragraphs, links, and images.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is CSS?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                CSS (Cascading Style Sheets) is used to style and layout web pages. It allows you to control the colors, fonts, spacing, and overall appearance of HTML elements.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is JavaScript?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                JavaScript is a programming language used to add interactivity and dynamic behavior to web pages. It can manipulate HTML and CSS in real-time, enabling features like form validation, animations, and interactive maps.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What are back-end frameworks?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Back-end frameworks, like Express.js (Node.js), Django (Python), and Ruby on Rails (Ruby), simplify the development of server-side logic and APIs. They provide structures and tools for building robust web applications.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is responsive design?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                 Responsive design ensures that websites look and function well on various devices and screen sizes, from desktops to smartphones. It uses flexible layouts, images, and CSS media queries to adapt the design.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is a full-stack developer?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                A full-stack developer has skills in both front-end and back-end development, allowing them to build complete web applications from the user interface to the server and database.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is version control?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Version control is a system that tracks changes to files and allows multiple developers to collaborate on a project. Git is a popular version control system, and GitHub is a platform for hosting and sharing code repositories.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">How can I practice my web development skills?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                You can practice by building personal projects, contributing to open-source projects, and completing coding challenges on platforms like Codecademy, freeCodeCamp, and LeetCode.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">Resources available for learning web development?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                There are numerous online resources for learning web development, including tutorials, courses, and documentation. Some popular platforms are Codecademy, freeCodeCamp, W3Schools, and MDN Web Docs.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title">What is the importance of web development?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+               Web development is crucial for creating and maintaining the digital presence of businesses, organizations, and individuals. It enables communication, commerce, entertainment, and access to information on the internet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ?FAQ -->
+
+    <section class="s-contact" id="contact">
+      <div class="contact-secondary">
+        <div class="contact-info">
+          <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+          <div class="cinfo">
+            <h5>Where to Find Us</h5>
+            <p>
+              1600 Amphitheatre Parkway<br />
+              Ojo, Lagos<br />
+              101210 Nigeria
+            </p>
+          </div>
+          <div class="cinfo">
+            <h5>Email Us At</h5>
+            <p>
+              <a
+                href="cdn-cgi/l/email-protection.html"
+                class="__cf_email__"
+                data-cfemail="02616d6c7663617642656e6b6c76716b76672c616d6f"
+                >[email&nbsp;protected]</a
+              ><br />
+              <a
+                href="cdn-cgi/l/email-protection.html"
+                class="__cf_email__"
+                data-cfemail="2841464e47684f4441465c5b415c4d064b4745"
+                >[email&nbsp;protected]</a
+              >
+            </p>
+          </div>
+          <div class="cinfo">
+            <h5>Call Us At</h5>
+            <p>
+              <a href="tel:+2348103064692">Phone: (+234) 810 NNAMDI</a><br />
+              <a href="tel:+2348141311661">Mobile: (+234) 814 EMMANUEL</a><br />
+              Fax: (+234) (810) 306 PANDA
+            </p>
+          </div>
+          <ul class="contact-social">
+            <li>
+              <a href="https://www.facebook.com/Nnamdidike0029"
+                ><i class="fab fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/OKAYINTERRUPT"
+                ><i class="fab fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nnamdi-dike-604522281"
+                ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.behance.net/emmanueldike1"
+                ><i class="fab fa-behance" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/emmzyrayz"
+                ><i class="fab fa-github-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCOj-ac0Zi9hVu2MzSbbHdpA"
+                ><i class="fab fa-youtube-square" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- !Footer -->
+    <footer>
+      <div class="row footer-main">
+        <div class="footcol col-six tab-full left footer-desc">
+          <div class="footer-logo"></div>
+          <p>
+            Thank you for visiting my personal portfolio! I hope you enjoyed
+            exploring my work and learning more about me. If you have any
+            questions or would like to connect, feel free to reach out. I look
+            forward to connecting with you soon!
+          </p>
+        </div>
+        <div class="footcol col-six tab-full right footer-subscribe">
+          <h4>Get Notified</h4>
+          <p>
+            We are delighted to inform you that our newsletter subscription
+            service is now available! By subscribing to our newsletter, you will
+            receive regular updates and notifications about the latest news,
+            articles, and exclusive content from us. Stay up-to-date on the
+            topics that matter to you most.
+          </p>
+          <div class="subscribe-form">
+            <form id="mc-form" class="group" novalidate="true">
+              <input
+                type="email"
+                value=""
+                name="EMAIL"
+                class="email"
+                id="mc-email"
+                placeholder="Email Address"
+                required
+              />
+              <input type="submit" name="subscribe" value="Subscribe" />
+              <label for="mc-email" class="subscribe-message"></label>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row footer-bottom">
+        <div class="col-twelve">
+          <div class="copyright">
+            <span>© Copyright OKAYINTERRUPT 2024</span>
+          </div>
+          <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"
+              ><i class="bi bi-arrow-up-square-fill" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- !Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/JavaScript/main.js"></script>
+  </body>
+</html>
