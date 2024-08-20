@@ -2207,12 +2207,12 @@ html.cl-loaded .home-content__main {
   margin-left: 7.8rem;
 }
 
-.work-text > a {
+.work-text>a {
   color: inherit;
 }
 
-.work-text > a:hover,
-.work-text > a:focus{
+.work-text>a:hover,
+.work-text>a:focus {
   color: #39b54a;
   font-weight: 600;
 }
@@ -2356,9 +2356,8 @@ html.cl-loaded .home-content__main {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 500px !important;
+  width: 100%;
   margin-right: 5px;
-  /* width: 30%; */
   margin-bottom: 20px;
   border: rgba(0, 0, 0, 0.2) solid 1px;
   border-radius: 10px;
@@ -2375,13 +2374,11 @@ html.cl-loaded .home-content__main {
   margin-top: 25px;
   margin-bottom: 25px;
   align-items: center;
-  justify-content: center;
-  /* background: green; */
+  justify-content: flex-start;
+  background: green;
   border-radius: 6px;
-  transform: translateX(50%);
-  left: -50%;
   gap: 5px;
-  width: 99%;
+  height: clamp(200px, 30vw, 400px);
 }
 
 .work-imgs::-webkit-scrollbar {
@@ -2392,17 +2389,19 @@ html.cl-loaded .home-content__main {
   scroll-snap-align: center;
   background: rgba(0, 0, 0, 0.4);
   min-width: 100% !important;
+  height: 100%;
   margin: 0;
   border-radius: 6px;
 }
 
 .work-img:hover,
 .work-img:focus {
-  scale: 1.1;
+  scale: 1.05;
 }
 
 .work-img img {
   width: 100% !important;
+  height: 100%;
   object-fit: cover;
 }
 
