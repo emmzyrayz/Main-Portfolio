@@ -27,6 +27,8 @@ body {
   color: #757575;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ------------------------------------------------------------------- * ## links * ------------------------------------------------------------------- */
@@ -2205,6 +2207,16 @@ html.cl-loaded .home-content__main {
   margin-left: 7.8rem;
 }
 
+.work-text > a {
+  color: inherit;
+}
+
+.work-text > a:hover,
+.work-text > a:focus{
+  color: #39b54a;
+  font-weight: 600;
+}
+
 .services-list .service-icon {
   float: left;
   color: #39b54a;
@@ -2363,12 +2375,13 @@ html.cl-loaded .home-content__main {
   margin-top: 25px;
   margin-bottom: 25px;
   align-items: center;
+  justify-content: center;
   /* background: green; */
   border-radius: 6px;
   transform: translateX(50%);
-  left: -47%;
+  left: -50%;
   gap: 5px;
-  width: 98%;
+  width: 99%;
 }
 
 .work-imgs::-webkit-scrollbar {
@@ -2377,7 +2390,7 @@ html.cl-loaded .home-content__main {
 
 .work-img {
   scroll-snap-align: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.4);
   min-width: 100% !important;
   margin: 0;
   border-radius: 6px;
@@ -2728,11 +2741,15 @@ svg {
   background-color: #151515;
   background-image: url("../images/contact-bg.jpg");
   background-repeat: no-repeat;
-  background-position: center, center;
+  background-position: stretch, stretch;
   padding-top: 15rem;
   padding-bottom: 12rem;
   color: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  border-radius: 10px;
   position: relative;
+  min-width: 90vw;
+  /* height: 100%; */
 }
 
 .s-contact .overlay {
@@ -2900,7 +2917,7 @@ svg {
 .contact-secondary::before {
   content: "";
   display: block;
-  width: 35%;
+  width: 0%;
   position: absolute;
   top: 0;
   bottom: 0;
