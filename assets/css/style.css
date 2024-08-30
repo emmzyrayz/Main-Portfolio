@@ -2375,7 +2375,6 @@ html.cl-loaded .home-content__main {
   margin-bottom: 25px;
   align-items: center;
   justify-content: flex-start;
-  background: green;
   border-radius: 6px;
   gap: 5px;
   height: clamp(200px, 30vw, 400px);
@@ -2396,7 +2395,7 @@ html.cl-loaded .home-content__main {
 
 .work-img:hover,
 .work-img:focus {
-  scale: 1.05;
+  scale: 1.1;
 }
 
 .work-img img {
